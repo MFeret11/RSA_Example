@@ -16,8 +16,7 @@ import java.util.Random;
 public class RSA {
 
     public static void main(String[] args) {
-        System.out.println("Enter any BigInteger to be encrypted using RSA: ");
-    
+        //add any long value into the line below. Will be encrypted using RSA.
         BigInteger m = BigInteger.valueOf(610308699);
         RSA(m);
     }
